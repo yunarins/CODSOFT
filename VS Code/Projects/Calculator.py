@@ -1,16 +1,16 @@
-# Function to add two numbers
+# Function to add 
 def add(num1, num2):
     return num1 + num2
 
-# Function to subtract two numbers
+# Function to subtract 
 def subtract(num1, num2):
     return num1 - num2
 
-# Function to multiply two numbers
+# Function to multiply 
 def multiply(num1, num2):
     return num1 * num2
 
-# Function to divide two numbers
+# Function to divide
 def divide(num1, num2):
     if num2 == 0:
         return "Error! Division by zero."
