@@ -89,6 +89,7 @@ def UpadateContact():
         new_address = addressI.get()
         contacts[index] = (new_name, new_phone, new_email, new_address)
         ViewContacts()
+#Function to delete
 def DeleteContact():
     selected_item = tree.selection()
     if selected_item:
